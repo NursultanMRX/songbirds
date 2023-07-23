@@ -1,0 +1,15 @@
+.App {
+    width: 900px;
+    margin: 0 auto;
+
+}
+.bg {
+    background-color:#222;
+}
+.head {
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+}

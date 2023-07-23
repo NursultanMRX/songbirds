@@ -1,0 +1,24 @@
+.img img {
+    width: 200px;
+    height: 155px;
+    border-radius:10px;
+}
+
+.Quesrions {
+    display: flex;
+    background-color:#303030;
+    padding: 1rem;
+    margin-bottom: 25px;
+    border-radius:8px
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+h3{
+    font-size: 2rem;
+    width: 600px;
+    border-bottom: 1px solid rgb(95, 93, 93);
+}
