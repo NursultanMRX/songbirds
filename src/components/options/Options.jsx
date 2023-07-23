@@ -5,7 +5,7 @@ import './Options.css'
 
 
 const Options = ({birdsDataEn}) => {
-
+  let str = "blog ishindegi ozgeris";
   return (
     <div>
       <div className='Options'>
