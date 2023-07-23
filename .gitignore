@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+
+serre.html
+
+
 # production
 /build
 
