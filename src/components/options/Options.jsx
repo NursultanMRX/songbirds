@@ -6,9 +6,8 @@ import './Options.css'
 
 const Options = ({birdsDataEn}) => {
 
-  const Handler = () => {
-    console.log('true')
-  }
+  let str = "blog ishindegi ozgeris";
+
   return (
     <div>
       <div className='Options'>
