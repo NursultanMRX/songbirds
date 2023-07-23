@@ -10,8 +10,8 @@
 
 
 serre.html
-vite-project
-
+/vite-project
+/gitignore_file
 # production
 /build
 
