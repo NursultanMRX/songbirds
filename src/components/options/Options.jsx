@@ -6,13 +6,16 @@ import './Options.css'
 
 const Options = ({birdsDataEn}) => {
 
+  const Handler = () => {
+    console.log('true')
+  }
   return (
     <div>
       <div className='Options'>
       <div>
         <ul>
         {birdsDataEn.map((item) => (
-          <li key={item.id} className='border'>
+          <li key={item.id} className='border' onClick={Handler}>
             <div className='check'></div>
             <p>{item.name}</p>
           </li>
