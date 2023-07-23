@@ -5,8 +5,9 @@ import './Options.css'
 
 
 const Options = ({birdsDataEn}) => {
-
-  let str = "blog ishindegi ozgeris";
+  let str = 0;
+  str++;
+  let cont = "new commit"
 
   return (
     <div>
