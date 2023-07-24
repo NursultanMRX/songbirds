@@ -4,7 +4,7 @@ const Answers = ({props}) => {
     <div>
       <div className='Answers'>
       <div>
-        {props.map((item) => (
+        {/* {props.map((item) => (
           <div key={item.id}>
             <div className='d-flex'>
               <img src={item.image} alt="img" />
@@ -13,7 +13,7 @@ const Answers = ({props}) => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
      </div>
     </div>
