@@ -1,13 +1,33 @@
 
 
+import { useEffect, useState } from 'react'
 import Answers from '../answers/Answers'
 import './Options.css'
 
 
 const Options = ({birdsDataEn}) => {
-  let str = 0;
-  str++;
-  let cont = "new commit"
+  const [category , setCategory] = useState([]);
+  const [value, setValue]=useState('')
+
+  useEffect(() => {
+    setCategory(birdsDataEn)
+  },[])
+
+  const hander = () => {
+    console.log(category)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
   return (
     <div>
@@ -15,9 +35,9 @@ const Options = ({birdsDataEn}) => {
       <div>
         <ul>
         {birdsDataEn.map((item) => (
-          <li key={item.id} className='border' onClick={Handler}>
+          <li key={item.id} className='border' onClick={hander}>
             <div className='check'></div>
-            <p>{item.name}</p>
+            <p className='Name'>{item.name}</p>
           </li>
       ))}
         </ul>
